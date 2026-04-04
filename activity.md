@@ -7,7 +7,7 @@
 ```mermaid
 flowchart TD
     A[Start] --> B[Mở ứng dụng]
-    B --> C[Nhấn "Bắt đầu tour"]
+    B --> C[Nhấn Bắt đầu tour]
     C --> D{Có quyền GPS?}
     D -- Không --> E[Yêu cầu cấp quyền]
     E --> D
